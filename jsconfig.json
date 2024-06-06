@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./src",
+    "paths": {
+      "@/components": ["components"],
+      "@/components/*": ["components/*"],
+      "@/styles/*": ["styles/*"],
+      "@/constants/*": ["constants/*"],
+      "@/assets/*": ["assets/*"],
+      "@/context/*": ["context/*"],
+      "@/helper/*": ["helper/*"],
+      "@/pages/*": ["pages/*"],
+      "@/assets/svg/*.svg": ["assets/svg/*.svg"],
+    }
+  }
+}
