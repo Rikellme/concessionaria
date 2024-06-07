@@ -21,10 +21,10 @@ export default function Footer() {
             <div className="links">
               <p>MENU</p>
               <div>
-                <a href="/">HOME</a>
+                <a href="">HOME</a>
               </div>
               <div>
-                <a href="/produtos">PRODUTOS</a>
+                <a href="produtos">PRODUTOS</a>
               </div>
             </div>
             <div className="links">

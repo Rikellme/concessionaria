@@ -31,12 +31,11 @@ export default class MyDocument extends Document {
     return (
       <Html>
         <Head lang="pt-br">
-          <base href="/" />
           <meta name="creator" content="Yer Brasil" />
           <meta httpEquiv="content-language" content="pt-br" />
           <meta httpEquiv="content-type" content="text/html; charset=UTF-8" />
           <meta property="og:locale" content="pt_BR" />
-          <link rel="icon" href="/snowflake.ico" />
+          <link rel="icon" href="snowflake.ico" />
           <link rel="preconnect" href="https://fonts.googleapis.com" />
           <link rel="preconnect" href="https://fonts.gstatic.com" />
           <link
