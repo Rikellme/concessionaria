@@ -4,9 +4,11 @@ const path = require("path");
 const nextConfig = {
   reactStrictMode: true,
   output: "standalone",
- /*  experimental: {
+  assetPrefix: "./",
+  trailingSlash: true,
+  /*  experimental: {
     forceSwcTransforms: true,
   }, */
-}
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;

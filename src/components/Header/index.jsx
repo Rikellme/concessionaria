@@ -21,14 +21,14 @@ export default function Header({ page }) {
   const router = useRouter();
   const { colors } = useTheme();
   const options = [
-    { name: "home", path: "./", color: colors.secondary },
+    { name: "home", path: "/", color: colors.secondary },
     { name: "produtos", path: "./produtos", color: colors.quaternary},
   ];
 
   return (
     <Content page={page}>
       <div className="content">
-        <Link href="/">
+        <Link href="">
           <img src="img/logo.png" alt="" />
         </Link>
 
@@ -48,7 +48,7 @@ export default function Header({ page }) {
             ))}
             
             <li className="nav-close-btn">
-              <Link href="/">
+              <Link href="">
                 <img src="/img/logo.png" alt="" />
               </Link>
               <button className="nav-btn" onClick={showNavbar}>
